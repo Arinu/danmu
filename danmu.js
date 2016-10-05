@@ -37,7 +37,7 @@ window.onload=function(){
 		var newdiv = document.createElement("div");
 		newdiv.innerHTML=Dmtext[0].value;
 		c_top = c_top+26;
-		if (c_top > (Dm_c_topmax - 20)) {
+		if (c_top > (Dm_c_topmax - 50)) {
 			c_top = 26;
 		}
 		Dm_content[0].appendChild(newdiv); 
