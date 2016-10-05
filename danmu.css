@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.dm{
+	margin-top: 25px;
+	text-align: center;
+
+}
+.dm-content{
+	height:500px;
+	width:95%;
+	margin :0 auto;
+	border:1px solid #000000;
+	overflow: hidden;
+	position: relative;
+}
+.dm-content div{
+	position: absolute;
+	white-space:nowrap;
+	font-size: 18px;
+	font-family:微软雅黑;
+	line-height: 20px;
+	font-weight: 500;
+}
+.dm-operation{
+	margin: 0 auto;
+}
+.dm-operation .text{
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #199BE5;
+}
+.dm-operation input{
+	margin-top: 20px;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	font-family:微软雅黑;
+	line-height: 40px;
+	font-size: 16px;
+	border: 1px solid #D157F5;
+	background-color: #FFFFFF;
+}
+.dm-operation .sub{
+	color: #192CE0;
+}
+.dm-operation .del{
+	color: #E74614;
+}
+.dm-operation input:hover{
+	border-color:#250BE9;
+}
