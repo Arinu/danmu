@@ -1,10 +1,10 @@
 window.onload=function(){
-	var sub = document.getElementsByClassName("sub");
-	var del = document.getElementsByClassName("del");
-	var Dm_content = document.getElementsByClassName("dm-content");
-	var Dm_c_topmin = Dm_content[0].offsetTop;
-	var Dm_c_topmax = Dm_c_topmin + Dm_content[0].offsetHeight;
-	var c_top = 0;
+	var sub = document.getElementsByClassName("sub"),
+		del = document.getElementsByClassName("del"),
+		Dm_content = document.getElementsByClassName("dm-content"),
+		Dm_c_topmin = Dm_content[0].offsetTop,
+		Dm_c_topmax = Dm_c_topmin + Dm_content[0].offsetHeight,
+		c_top = 0;
 	sub[0].onclick=function () {
 		if(GetTextValue()!=""){
 		DmSubmit();
