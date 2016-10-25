@@ -28,9 +28,10 @@ window.onload=function(){
 		return textvalue;
 	};
 	function GetTextColor(){
-		return '#' + (function(color){
-			return (color += '0123456789abcdef'[Math.floor(Math.random() * 17)]) &&(color.length == 6 ? color : arguments.callee(color));
-		})("");
+		return 'rgb('+random()+','+random()+','+random()+')';
+	};
+	function random() {
+		return Math.floor(Math.random()*256);
 	};
 	function DmSubmit() {
 		var Dmtext = document.getElementsByClassName("text");
@@ -39,6 +40,7 @@ window.onload=function(){
 		c_top = c_top+26;
 		if (c_top > (Dm_c_topmax - 50)) {
 			c_top = 26;
+			console.log(666);
 		}
 		Dm_content[0].appendChild(newdiv); 
 		var e_left = newdiv.offsetWidth;
